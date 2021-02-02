@@ -21,3 +21,18 @@ public function __construct()
   $this->middleware('auth');
 }
 ```
+
+## View
+
+#### Rails
+```
+if user_signed_in?
+  ...
+end
+```
+#### Laravel
+```
+@guest
+  ...
+@endguest
+```
