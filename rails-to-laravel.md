@@ -36,3 +36,14 @@ end
   ...
 @endguest
 ```
+
+## Errors
+
+#### Rails
+```
+ActionView::MissingTemplate
+```
+#### Laravel
+```
+View [absolute file name expected to be rendered] not found. E.g. View [app] not found.
+```
