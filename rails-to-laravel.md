@@ -11,7 +11,7 @@ devise_for :users | Auth::routes();
 
 #### Rails
 ```
-before_action :authenticate_user
+before_action :authenticate_user!
 ```
 #### Laravel
 
